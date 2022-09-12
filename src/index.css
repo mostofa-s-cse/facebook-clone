@@ -19,4 +19,6 @@ code {
 .app_body{
   display: flex;
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }

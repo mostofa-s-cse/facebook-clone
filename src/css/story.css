@@ -1,0 +1,119 @@
+.storyReel{
+    display: flex;
+}
+.ourStory{
+    position: relative;
+    background-color: #fff;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.storyImg{
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.storyImg img {
+    display: block;
+    height: 150px;
+    width: 115px;
+    transition: transform .2s;
+}
+.ourStory .css-i4bv87-MuiSvgIcon-root {
+    position: relative;
+    background: #2381fa;
+    border-radius: 50%;
+    margin-top: -20px;
+    color: whitesmoke;
+    font-size: 30px;
+    border: 4px solid #fff;
+}
+.ourStory h4{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+}
+  .ourStory:hover img {
+    transform: scale(1.1);
+  }
+  .ourStory:hover .overly {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(3, 3, 3, 0.071);
+    margin-top: -178px;
+    border-radius: 10px;
+    bottom: 0;
+}
+/*.........................allStoryShow.......................*/
+.allStoryShow{
+    display: flex;
+}
+.allStory{
+    position: relative;
+    width: 115px;
+    height: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    margin: 0px 5px;
+    
+    border-radius: 10px;
+    cursor: pointer;
+}
+.allStoryImg{
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.allStoryImg img {
+    display: block;
+    height: 200px;
+    width: 115px;
+    transition: transform .2s;
+}
+.allStory:hover img {
+    transform: scale(1.1);
+  }
+.allStory .MuiAvatar-root {
+    position: absolute;
+    margin: 10px;
+    width: 35px;
+    height: 35px;
+    border: 4px solid #2381fa;
+    border-radius: 50%;
+    bottom: 135px;
+}
+.allStory h4 {
+    position: absolute;
+    bottom: 12px;
+    color: whitesmoke;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 10px 0px 10px;
+}
+.allStory:hover .overly {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(3, 3, 3, 0.071);
+    margin-top: -178px;
+    border-radius: 10px;
+    bottom: 0;
+}
+.storyArrow .m4pnbp5e{
+    font-size: 20px;
+    margin: 10px;
+}
+.storyArrow {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #868689;
+    margin-top: 75px;
+    position: relative;
+    left: -25px;
+    border: 1px solid #cbcbcf;
+}

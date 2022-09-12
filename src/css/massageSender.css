@@ -1,0 +1,62 @@
+.massageSender {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    flex-direction: column;
+    box-sizing: border-box;
+} 
+.massageSender_top{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.massageSender_top form{
+    background-color: whitesmoke;
+    flex: 1;
+    padding: 8px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+.massageSender_top:hover form{
+    background-color: #e9eaeb;
+}
+.massageSender_top form input{
+    font-size: 16px;
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+
+.massageSender_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+    margin-top: 15px;
+}
+.massageSender_option span{
+    font-size: 25px;
+    margin-top: 5px;
+}
+.massageSender_option{
+    display: flex;
+    align-items: center;
+    padding: 5px 25px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.massageSender_option:hover{
+    background-color: #e9eaeb;
+}
+.massageSender_option p{
+    margin-left: 10px;
+    font-weight: 600;
+    color: #575757;
+}
