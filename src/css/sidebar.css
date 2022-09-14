@@ -2,6 +2,10 @@
     margin-top: 1%;
     width: 20%;
     position: sticky;
+    overflow: scroll;
     top: 0;
     margin-left: 10px;
+}
+.sidebar_top .css-9mgopn-MuiDivider-root{
+    margin-left: 20px;
 }

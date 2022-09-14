@@ -1,6 +1,6 @@
-.header{
+.header {
     display: flex;
-    padding: 0px 20px;
+    padding: 5px 20px;
     background-color: white;
     position: sticky;
     top: 0;
@@ -30,10 +30,11 @@
   background-color: transparent;
   min-width: 150px;
 }
-.header_middle{
+.header_middle {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 6rem;
 }
 .header_option{
     padding: 5px 50px;

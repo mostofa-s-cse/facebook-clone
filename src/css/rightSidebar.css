@@ -1,9 +1,84 @@
 .widget{
     display: flex;
     margin-top: 1%;
-    margin-right: 20px;
-    margin-left: 10px;
     height: 100vh;
+    margin-right: 10px;
+    margin-left: 35px;
     position: sticky;
+    overflow: scroll;
     top:0;
+    flex-direction: column;
+    flex: 0.33;
+}
+.widget_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #737375;
+}
+.widget_header h4{
+    font-size: 17px;
+}
+.widget_bodyOptions {
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.widget_bodyOptions:hover{
+    cursor: pointer;
+    background-color: rgb(211 211 211/30%);
+    border-radius: 8px;
+}
+.widget_bodyOptions h4 {
+    margin-left: 8px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #161616;
+}
+.widget_bodyOptions p {
+    margin-left: 10px;
+    font-weight: 400;
+}
+.ml {
+    margin-left: 2rem;
+    margin-bottom: 15px;
+    padding: 5px 20px;
+}
+.ml img{
+    opacity: 0.6;
+}
+.widget_body{
+    border-bottom: 1px solid #73737561;
+}
+.widget_contactHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #737375;
+    margin-top: 10px;
+}
+.widget_contactHeader h4{
+    font-size: 17px;
+}
+.widget_contactRight svg{
+    margin: 0px 8px;
+    font-size: 20px;
+}
+.widget_contactBody{
+    border-bottom: 1px solid #73737561;
+}
+.widget_bottom h4{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.widget_bodyOptions .css-78trlr-MuiButtonBase-root-MuiIconButton-root{
+    background-color: #dedee3;
+    border-radius: 50%;
+
+}
+.widget_contactHeader h4{
+    font-size: 17px;
 }

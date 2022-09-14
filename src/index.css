@@ -22,3 +22,12 @@ code {
   overflow-x: hidden;
   overflow-y: auto;
 }
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.child_avatar .MuiAvatar-root{
+  width: 34px;
+  height: 33px;
+}

@@ -24,3 +24,54 @@
     background-color: rgb(211 211 211/30%);
     border-radius: 8px;
 }
+
+
+
+.sidebarBottomRow{
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.sidebarBottomRow .MuiAvatar-root{
+    width: 30px;
+    height: 30px;
+    margin-left: -5px;
+    margin-bottom: -1px;
+}
+.sidebarBottomRow .css-i4bv87-MuiSvgIcon-root{
+    background-color: rgba(128, 128, 128, 0.244);
+    border-radius: 50%;
+}
+.sidebarBottomRow p{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.sidebarBottomRow:hover{
+    cursor: pointer;
+    background-color: rgb(211 211 211/30%);
+    border-radius: 8px;
+}
+.sidebarBottomRowHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.sidebarBottomRowHeader .btn {
+    display: none;
+}
+.sidebar_bottom:hover .btn {
+    display: block;
+    border: none;
+    padding: 4px 10px 4px 10px;
+    color: #036ae3;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.btn:hover {
+    background-color: lightgray;
+}

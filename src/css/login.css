@@ -1,0 +1,118 @@
+.login_wrapper{
+    margin-top: auto;
+    width: 992px;
+    margin: 0px auto;
+    margin-top: 100px;
+    align-items: center;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.login_left h2 {
+    color: #1877f2;
+    font-size: 60px;
+    margin-top: -80px;
+}
+.login_left p {
+    margin-top: 8px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+.login_right form {
+    margin-top: 10px;
+    text-align: center;
+    width: 400px;
+    height: 340px;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 8px;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+.login_right form input {
+    float: left;
+    font-size: 17px;
+    padding: 17px;
+    width: 360px;
+    margin: 0 auto;
+    border-radius: 6px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+    outline: 0px;
+}
+.login_right form input:focus {
+    border: 1px solid #1877f2;
+}
+.submitBtn {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 1px;
+    width: 395px;
+}
+.login_right h5 {
+    font-size: 16px;
+    font-weight: normal;
+    border-bottom: 1px solid lightgray;
+    color: #1877f2;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+}
+.login_right .btn {
+    background-color: #36a420;
+    padding: 15px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    margin-bottom: 20px;
+}
+.signUp_modal_pop {
+    top: 50%;
+    background-color: #fff;
+    width: 400px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 15px;
+    border-radius: 10px;
+    border: 0;
+}
+.signUp_modal_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 8px;
+}
+.signUp_modal_headingLeft p{
+    margin-bottom: 10px;
+}
+.signUp_modal_heading .MuiIconButton-root{
+    position: absolute;
+    top: 12px;
+    right: 8px;
+}
+.signUp_modal_pop form{
+    width: 380px;
+}
+.signUp_modal_pop form input {
+    width: 100%;
+    min-width: 100px;
+    padding: 15px 10px;
+    margin: 5px -3px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid lightgray;
+    margin-bottom: 12px;
+}
