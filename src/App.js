@@ -1,26 +1,22 @@
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
-import Feed from "./components/Feed"
-import RightSidebar from "./components/RightSidebar";
-// import Login from "./components/RequireAuth/Login";
-// import SignUp from "./components/RequireAuth/SignUp";
+import Home from "./components/Home";
+import Login from "./components/RequireAuth/Login";
+import "./css/responsive.css";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "./firebase.init";
 function App() {
-  // const user = null;
+  const [user] = useAuthState(auth);
   return (
     <>
-    {/* {
-      !user ? (<Login/>) : (
-        <SignUp/>
-      )
-    } */}
-     <Header/>
-     <div className="app_body">
-      <Sidebar/>
-      <Feed/>
-      <RightSidebar/>
-      {/* <Login/>
-      <SignUp/> */}
-     </div>
+     <Router>  
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+      </Routes>
+      </Router>
     </>
   );
 }

@@ -1,14 +1,8 @@
-.widget{
-    display: flex;
-    margin-top: 1%;
-    height: 100vh;
-    margin-right: 10px;
-    margin-left: 35px;
-    position: sticky;
-    overflow: scroll;
-    top:0;
-    flex-direction: column;
-    flex: 0.33;
+.widget {
+	position: sticky;
+	overflow: scroll;
+	top: 0;
+	margin-right: 15px;
 }
 .widget_header{
     display: flex;
@@ -16,12 +10,15 @@
     align-items: center;
     color: #737375;
 }
+.widget_header svg{
+    cursor: pointer;
+}
 .widget_header h4{
     font-size: 17px;
 }
 .widget_bodyOptions {
     display: flex;
-    padding: 5px 20px;
+    padding: 5px 6px;
     align-items: center;
     margin-bottom: 10px;
 }
@@ -42,8 +39,8 @@
     font-weight: 400;
 }
 .ml {
-    margin-left: 2rem;
-    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     padding: 5px 20px;
 }
 .ml img{
@@ -65,12 +62,17 @@
 .widget_contactRight svg{
     margin: 0px 8px;
     font-size: 20px;
+    cursor: pointer;
 }
 .widget_contactBody{
     border-bottom: 1px solid #73737561;
 }
 .widget_bottom h4{
     margin-top: 10px;
+    font-size: 15px;
+}
+.widget_bottom_header h4{
+    color: #737375;
     font-size: 17px;
 }
 

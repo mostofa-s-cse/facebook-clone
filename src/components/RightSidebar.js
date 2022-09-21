@@ -54,7 +54,7 @@ const RightSidebar = () => {
             </div>
 
             <div className='widget_bottom'>
-                <div className='widget_header'>
+                <div className='widget_bottom_header'>
                     <h4>Group conversations</h4>
                 </div>
                 <div className='widget_bodyOptions'>

@@ -1,11 +1,9 @@
 .feed {
     flex: 1 1;
-    padding: 2% 70px;
+    padding: 10px 0px;
     display: flex;
     flex-direction: column;
-    max-width: 600px;
 }
-.feedBody{
-    max-width: 500px;
-    margin: 0px auto;
+.feedBody {
+	margin: 0px auto;
 }

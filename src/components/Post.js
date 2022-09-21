@@ -2,7 +2,7 @@ import React from 'react';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import PublicIcon from '@mui/icons-material/Public';
 import "../css/post.css"
-import { Avatar } from '@mui/material';
+import { Avatar, IconButton } from '@mui/material';
 import MoreHorizOutlinedIcon from '@mui/icons-material/MoreHorizOutlined';
 
 import Haha from "../img/haha.svg"
@@ -24,11 +24,12 @@ import Gif from "../img/gif.png"
 
 const Post = ({photoURL,image,username,times,message}) => {
     return (
+        <>
         <div className='post'>
             <div className='post_top'>
                 <div className='post_topLeft'>
                 {
-                    photoURL ? <img className='avatar' src={photoURL} /> : <Avatar/>
+                    photoURL ? <Avatar src={photoURL}/>: <Avatar/>
                 }
                     <div className='postInfo'>
                         <h4>{username}</h4>
@@ -104,6 +105,7 @@ const Post = ({photoURL,image,username,times,message}) => {
                     </div>
             </div>
         </div>
+     </>
     );
 };
 

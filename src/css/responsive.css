@@ -1,0 +1,531 @@
+/*............................. media screen max width 1200px ..................*/
+@media screen and (max-width: 1200px) {
+    .header_search {
+        padding: 0px 0px;
+    }
+    .header_search svg{
+        margin-left: 10px;
+    }
+    .storyReel {
+        margin-left: 0px;
+    }
+}
+/*............................. media screen max width 992px ..................*/
+@media screen and (max-width: 992px) {
+    .header_search input {
+        font-size: 0px;
+    }
+    .header_search .css-i4bv87-MuiSvgIcon-root {
+        margin-left: 9px;
+        margin-top: 4px;
+    }
+    .header_search {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+    .header_option {
+        padding: 5px 40px;
+    }
+    .sidebar {
+        display: none;
+    }
+    .widget {
+        width: 25%;
+    }
+
+
+    .ourStory {
+        height: 180px;
+    }
+    .storyImg img {
+        width: 100px;
+        height: 128px;
+    }
+    .allStory {
+        width: 100px;
+        height: 180px;
+    }
+    .allStoryImg img {
+        width: 100px;
+        height: 180px;
+    }
+    .allStory .MuiAvatar-root {
+        width: 28px;
+        height: 28px;
+        top: 0px;
+    }
+
+ 
+    .widget_header h4 {
+        font-size: 15px;
+    }
+    .widget_bodyOptions p {
+        font-size: 13px;
+    }
+    .widget_bodyOptions h4 {
+        font-size: 13px;
+    }
+
+
+    .login {
+        width: 100%;
+    }
+    .loginBodyLeft h2 {
+        color: #1877f2;
+        font-size: 44px;
+    }
+    .loginBodyLeft p {
+        font-size: 15px;
+    }
+    .loginBodyRight form {
+        width: 80%;
+        padding: 20px 20px;
+    }
+    .loginBodyRight form input {
+        padding: 16px 14px;
+    }
+    
+}
+
+/*............................. media screen max width 900px ..................*/
+@media screen and (max-width: 900px) {
+    .header_middle .mobileMenu {
+        display: block;
+        width: 65px;
+        height: 46px;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+    .header_option {
+        padding: 5px 20px;
+    }
+    .header_info .headerAdd-icon {
+        display: block;
+    }
+    .header_info .headerMenu-icon{
+        display: none;
+    }
+    .widget {
+       display: none;
+    }
+    .sidebar {
+        display: none;
+    }
+
+
+    .login {
+        width: 100%;
+    }
+    .loginBodyLeft h2 {
+        color: #1877f2;
+        font-size: 44px;
+    }
+    .loginBodyLeft p {
+        font-size: 15px;
+    }
+    .loginBodyRight form {
+        width: 80%;
+        padding: 20px 20px;
+    }
+    .loginBodyRight form input {
+        padding: 16px 14px;
+    }
+}
+/*............................. media screen max width 800px ..................*/
+@media screen and (max-width: 800px) {
+    .loginBodyRight h2 {
+        display: block;
+        font-size: 35px;
+        margin-bottom: 28px;
+        margin-right: 30px;
+    }
+    .loginBodyLeft {
+       display:none;
+    }
+    .loginBody {
+        width: auto;
+    }
+    .loginBodyRight form input {
+        font-size: 13px;
+    }
+    .loginBodyRight form .submitBtn {
+        font-size: 15px;
+    }
+
+    .loginBodyRight .btn {
+        font-size: 13px;
+    }
+    .loginBodyRight p {
+        margin-top: 35px;
+        font-size: 12px;
+        margin-right: 30px;
+    }
+
+}
+/*............................. media screen max width 768px ..................*/
+@media screen and (max-width: 768px) {
+    .header_left{
+        width: 15%;
+    }
+    .header_middle{
+        width: 60%;
+    }
+    .header_right{
+        width: 25%;
+    }
+    .header_option {
+        display: none;
+    }
+    .header_middle {
+        justify-content: start;
+    }
+    .app_body {
+        padding: 5px 0px;
+    }
+    .feed{
+        width: 100%;
+    }
+
+    .ourStory .addIcon{
+        margin-bottom: 8%;
+    }
+    .storyImg img {
+        height: 112px;
+    }
+
+
+    .modal_pop {
+        width: 60%;
+    }
+    .modal_body textarea {
+        font-size: 15px;
+    }
+    .modal_footerLeft h4 {
+        font-size: 12px;
+    }
+    .modal_footerRight img {
+        width: 18px;
+    }
+}
+/*............................. media screen max width 576px ..................*/
+
+@media screen and (max-width: 576px) {
+
+    .header_option {
+        display: none;
+    }
+    .header_middle .mobileMenu {
+        margin-left: 2rem;
+    }
+    .feed{
+        width: 100%;
+    }
+    .feedBody {
+        width: 100%;
+    }
+    .massageSender {
+        border-radius: 0px;
+    }
+    .createRoom {
+        border-radius: 0px;
+    }
+    .createRoom_icon p {
+        margin-top: -1px;
+        font-size: 13px;
+    }
+    .createRoom_icon img{
+        width: 22px;
+    }
+    .post {
+        border-radius: 0px;
+    }
+    .allStoryShow{
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scroll-behavior: smooth;
+    }
+    .storyReel {
+        margin-left: 30px;
+    }
+    .ourStory .addIcon{
+        margin-bottom: 12%;
+    }
+
+    .modal_pop {
+        width: 80%;
+    }
+
+}
+
+/*............................. media screen max width 480px ..................*/
+    @media screen and (max-width: 480px) {
+        .header {
+            display: block;
+            padding: 5px;
+        }
+        .header_middle {
+            justify-content: center;
+        }
+        .header_option {
+            padding: 5px 20px;
+        }
+        .mobileMenuHeader {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 18px;
+            padding-top: 8px;
+        }
+        .mobileMenuHeader h2{
+            color: #1877f2;
+        }
+        .mobileMenuHeader_right .icon_box{
+            background-color: whitesmoke;
+            margin-left: 8px;
+        }
+        .mobileMenuHeader_right svg {
+            color: black;
+            font-size: 19px;
+        }
+        .header_left img{
+            display: none;
+        }
+        .header_left {
+            justify-content: space-between;
+            width: 100%;
+            padding: 5px 0px;
+        }
+        .header_search {
+            display: none;
+        }
+        .header_middle .mobileMenu {
+            display: none;
+        }
+        .header_middle .friendGroupIcon{
+            display: none;
+        }
+        .header_middle {
+            width: 100%;
+        }
+        .header_option {
+            display: block;
+        }
+        .header_option svg {
+            width: 25px;
+        }
+        .header_info {
+            display: none;
+        }
+        .header_middle .mobileMenuOption{
+            display: block;
+        }
+
+        .Mobile_createPost_top {
+            bottom: 5px;
+            margin-top: -5px;
+            margin-bottom: 1rem;
+        }
+       .Mobile_createPost_top .MuiAvatar-root {
+            width: 35px;
+            height: 35px;
+        }
+        .massageSender {
+            display: none;
+        }
+
+        .feed {
+            padding:0px;
+        }
+
+        .feedBody .MuiAvatar-root {
+            width: 35px;
+            height: 35px;
+        }
+
+
+        .Mobile_createPost_top {
+            display: block;
+        }
+
+
+        .storyReel {
+            margin-left: 2px;
+            padding: 14px 0px;
+            background-color: #fff;
+            box-shadow: none;
+        }
+        .ourStory {
+            border-radius: 10px;
+            border: 1px solid lightgray;
+            background-color: whitesmoke;
+            box-shadow: none;
+            margin-left: 14px;
+        }
+
+        .ourStory .addIcon{
+            margin-bottom: 18%;
+            border: 3px solid whitesmoke;
+        }
+
+        .allStory {
+            border: 1px solid lightgray;
+            box-shadow: none;
+        }
+
+        .storyArrow {
+            display: none;
+        }
+
+        .massageSender {
+            border-radius: 0px;
+        }
+        .createRoom {
+            border-radius: 0px;
+        }
+        .post {
+            border-radius: 0px;
+        }
+
+
+        .massageSender_option img {
+            width: 18px;
+        }
+        .massageSender_option p {
+            font-size: 12px;
+        }
+
+
+        .massageSender_top form input {
+            font-size: 12px;
+        }
+
+
+        .post_bottomOption img {
+            width: 15px;
+        }
+        .postBottom_option {
+            font-size: 14px;
+        }
+
+        .post_comments form input {
+            font-size: 12px;
+        }
+        .post_comments .comment_icon {
+            width: 15px;
+        }
+
+        .showReact-share{
+            font-size: 12px;
+        }
+        .showReact-shareLeft img {
+            width: 12px;
+        }
+
+        .comments_info {
+            font-size: 12px;
+        }
+
+        .postBottom_option {
+            margin: 0px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+
+        .modal_pop {
+            width: 90%;
+        }
+
+        .submitBtn {
+            font-size: 14px;
+        }
+        .signUp_modal_pop {
+            width: 70%;
+        }
+        
+    }
+/*............................. media screen max width 412px ..................*/
+    @media screen and (max-width: 412px) {
+        .header_left {
+            padding: 1px 0px;
+        }
+        .mobileMenuHeader {
+            padding: 0px 8px;
+            padding-top: 14px;
+        }
+        .header_option svg {
+            width: 22px;
+        }
+        .header_option {
+            padding: 5px 18px;
+        }
+       
+        .child_avatar .MuiAvatar-root {
+            width: 26px;
+            height: 26px;
+        }
+
+        .massageSender_option {
+            padding: 5px 5px;
+        }
+
+        .massageSender_option img {
+            width: 18px;
+        }
+        .massageSender_option p {
+            font-size: 11px;
+        }
+
+        .ourStory .addIcon{
+            margin-bottom: 20%;
+        }
+
+
+        .massageSender {
+            border-radius: 0px;
+        }
+        .createRoom {
+            border-radius: 0px;
+            align-items: center;
+        }
+        .post {
+            border-radius: 0px;
+        }
+
+
+        .loginBodyRight form {
+            width: 70%;
+            padding: 20px 20px;
+            margin-left: 24px;
+        }
+
+
+        .signUp_modal_pop {
+            width: 70%;
+        }
+        .signUp_modal_pop form input {
+            width: 90%;
+            padding: 10px 12px;
+        }
+        .submitBtn {
+            font-size: 15px;
+        }
+
+        
+        .signUp_modal_pop {
+            width: 70%;
+            margin-left: 2rem;
+        }
+
+    }
+/*............................. media screen max width 360px ..................*/
+    @media screen and (max-width: 360px) {
+        .header_option {
+            padding: 5px 16px;
+        }
+
+       
+    }

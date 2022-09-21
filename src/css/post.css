@@ -17,6 +17,7 @@
 }
 .postInfo h4{
     font-weight: 600;
+    cursor: pointer;
 }
 .postInfo p{
     font-size: 12px;
@@ -27,6 +28,7 @@
     font-size: 13px;
     margin-left: 5px;
     margin-top: 3px;
+    cursor: pointer;
 }
 
 
@@ -41,6 +43,7 @@
 }
 .post_middle img {
     width: 100%;
+    cursor: pointer;
 }
 .post_option {
     border-top: 1px solid lightgray;
@@ -96,6 +99,9 @@
     border-radius: 15px;
     font-weight: normal;
     font-size: 14px;
+}
+.comments_info h4{
+    cursor: pointer;
 }
 .AllCommentShow .comment_moreIcon{
     display: none;

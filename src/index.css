@@ -16,18 +16,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.app_body{
-  display: flex;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+.app_body {
+	display: flex;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 20px 0px;
 }
 .avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  cursor: pointer;
 }
 .child_avatar .MuiAvatar-root{
-  width: 34px;
-  height: 33px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
+.css-i4bv87-MuiSvgIcon-root,
+.css-2s90m6-MuiAvatar-root{
+  cursor: pointer;
+  
+}
+
+

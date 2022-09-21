@@ -1,54 +1,58 @@
-.login_wrapper{
-    margin-top: auto;
-    width: 992px;
-    margin: 0px auto;
-    margin-top: 100px;
-    align-items: center;
-}
 .login {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	margin-top: 10%;
 }
-.login_left h2 {
+.loginBody {
+	width: 960px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.loginBodyLeft {
+	width: 400px;
+}
+.loginBodyLeft h2 {
     color: #1877f2;
     font-size: 60px;
-    margin-top: -80px;
 }
-.login_left p {
-    margin-top: 8px;
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 32px;
-    width: 500px;
+.loginBodyLeft p{
+    font-size: 20px;
 }
-.login_right form {
-    margin-top: 10px;
+.loginBodyRight {
+	width: 400px;
     text-align: center;
-    width: 400px;
-    height: 340px;
-    background-color: #fff;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    border-radius: 8px;
-    font-size: 17px;
-    padding: 14px 16px;
 }
-.login_right form input {
-    float: left;
-    font-size: 17px;
-    padding: 17px;
-    width: 360px;
-    margin: 0 auto;
-    border-radius: 6px;
-    border: 1px solid lightgray;
-    margin-bottom: 20px;
-    outline: 0px;
+.loginBodyRight h2{
+    display: none;
 }
-.login_right form input:focus {
-    border: 1px solid #1877f2;
+.loginBodyRight h2{
+    color: #1877f2;
+    font-size: 60px;
 }
-.submitBtn {
+
+.loginBodyRight form{
+	width: 100%;
+	background-color: #fff;
+	padding: 20px 20px;
+	border-radius: 10px;
+}
+.loginBodyRight form input {
+	display: block;
+	width: 90%;
+	font-size: 17px;
+	border-radius: 6px;
+	border: 1px solid lightgray;
+	margin-bottom: 20px;
+	padding: 16px 18px;
+}
+
+.loginBodyRight form .submitBtn {
     background-color: #1877f2;
     color: #fff;
     border: none;
@@ -57,9 +61,10 @@
     font-weight: bold;
     line-height: 48px;
     padding: 0 1px;
-    width: 395px;
+    width: 100%;
+    cursor: pointer;
 }
-.login_right h5 {
+.loginBodyRight h5 {
     font-size: 16px;
     font-weight: normal;
     border-bottom: 1px solid lightgray;
@@ -67,7 +72,7 @@
     margin: 20px 0px;
     padding-bottom: 20px;
 }
-.login_right .btn {
+.loginBodyRight .btn {
     background-color: #36a420;
     padding: 15px 20px;
     border-radius: 6px;
@@ -77,10 +82,16 @@
     border: none;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
 .signUp_modal_pop {
     top: 50%;
     background-color: #fff;
-    width: 400px;
+    width: 50%;
     margin: 0px auto;
     position: relative;
     transform: translateY(-50%);
@@ -104,10 +115,10 @@
     right: 8px;
 }
 .signUp_modal_pop form{
-    width: 380px;
+    width: 100%;
 }
 .signUp_modal_pop form input {
-    width: 100%;
+    width: 97%;
     min-width: 100px;
     padding: 15px 10px;
     margin: 5px -3px;
@@ -115,4 +126,16 @@
     outline: none;
     border: 1px solid lightgray;
     margin-bottom: 12px;
+}
+.submitBtn {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 1px;
+    width: 100%;
+    cursor: pointer;
 }

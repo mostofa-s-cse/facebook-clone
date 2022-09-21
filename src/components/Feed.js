@@ -12,17 +12,27 @@ const Feed = () => {
                 <Post 
                     photoURL="https://imgs.search.brave.com/N6QN9kvBH2zHNpFvHPlCU50PclPOt2eYd1ek4gbuz3k/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5T/VGRyVlQ4N1gxdG5R/SldTZEU1VmVRSGFI/YSZwaWQ9QXBp" 
                     image="https://imgs.search.brave.com/rsl7gGzLLlQBFACdy-ADW25Pq2sbVtaJ1mCezhS-p04/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC45/V1RNaFluMmktUnBD/dHg2TmZOdG9BSGFF/byZwaWQ9QXBp" 
-                    username="Nabila Ahmed"
+                    username="Nabil Ahmed"
                     times="4m"
-                    message="This is facebook clone website...gfgdfgd."
+                    message="This is facebook clone website..."
                     />
                 <Post 
-                    photoURL="" 
+                    photoURL="https://imgs.search.brave.com/N6QN9kvBH2zHNpFvHPlCU50PclPOt2eYd1ek4gbuz3k/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5T/VGRyVlQ4N1gxdG5R/SldTZEU1VmVRSGFI/YSZwaWQ9QXBp" 
                     image="" 
-                    username="Nabila Ahmed"
+                    username="Nabil Ahmed"
                     times="4m"
-                    message="This is facebook clone website...gfgdfgd."
+                    message="This is facebook clone website..."
                     />
+
+                    <Post 
+                    photoURL="https://imgs.search.brave.com/N6QN9kvBH2zHNpFvHPlCU50PclPOt2eYd1ek4gbuz3k/rs:fit:474:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5T/VGRyVlQ4N1gxdG5R/SldTZEU1VmVRSGFI/YSZwaWQ9QXBp" 
+                    image="https://imgs.search.brave.com/rsl7gGzLLlQBFACdy-ADW25Pq2sbVtaJ1mCezhS-p04/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Ux/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC45/V1RNaFluMmktUnBD/dHg2TmZOdG9BSGFF/byZwaWQ9QXBp" 
+                    username="Nabil Ahmed"
+                    times="4m"
+                    message="This is facebook clone website..."
+                    />
+
+                    <br style={{marginBottom:'7rem'}}/>
            </div>
         </div>
     );

@@ -5,17 +5,26 @@ import AddIcon from '@mui/icons-material/Add';
 import "../css/story.css";
 const StoryReel = () => {
     return (
+        <>
+         <div className='Mobile_createPost_top'>
+         <div className='Mobile_createPost_top_body'>
+                <Avatar/>
+                <form>
+                    <input type="text" placeholder="What's on your mind User Name?" />
+                </form>
+            </div>
+         </div>
         <div className='storyReel'>
-           <div className='ourStory'>
+            <div className='allStoryShow'>
+            <div className='ourStory'>
                 <div className='storyImg'>
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8hquZ0Rc1LTmH5YPLGDmdf1ZchGTgNL8rsA&usqp=CAU" alt="Avatar"/>
                 </div>
-                <AddIcon/>
+                <AddIcon className='addIcon'/>
                 <h4>Create Story</h4> 
                 <div className="overly">
                 </div>
             </div>
-            <div className='allStoryShow'>
                 <div className='allStory'>
                     <div className='allStoryImg'>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8hquZ0Rc1LTmH5YPLGDmdf1ZchGTgNL8rsA&usqp=CAU" alt="Avatar"/>
@@ -58,6 +67,7 @@ const StoryReel = () => {
                 </span>
             </div>
         </div>
+        </>
     );
 };
 
