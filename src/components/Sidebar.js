@@ -1,15 +1,18 @@
 import React from 'react';
+import { getAuth } from "firebase/auth";
 import '../css/sidebar.css';
 import SidebarOptons from './SidebarOptons';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Avatar, Divider } from '@mui/material';
 import SidebarBottomOption from './SidebarBottomOption';
 const Sidebar = () => {
+    const auth = getAuth();
+    const user = auth.currentUser;
     return (
         <>
         <div className='sidebar'>
             <div className='sidebar_top'>
-                <SidebarOptons Icon={Avatar}  title="User Name"/>
+                <SidebarOptons Icon={Avatar}  title={user.displayName}/>
                 <SidebarOptons src="https://static.xx.fbcdn.net/rsrc.php/v3/y8/r/S0U5ECzYUSu.png"  title="Find friends"/>
                 <SidebarOptons src="https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/PrjLkDYpYbH.png" title="Groups"/>
                 <SidebarOptons src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/kyCAf2jbZvF.png" title="Pages"/>

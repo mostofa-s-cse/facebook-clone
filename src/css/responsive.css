@@ -195,7 +195,7 @@
     }
 
 
-    .modal_pop {
+    .createPost_modal_popup {
         width: 60%;
     }
     .modal_body textarea {
@@ -252,8 +252,16 @@
         margin-bottom: 12%;
     }
 
-    .modal_pop {
+    .createPost_modal_popup {
         width: 80%;
+    }
+
+
+    .signUp form {
+        width: 70%;
+    }
+    .signUp form .submitBtn {
+        font-size: 15px;
     }
 
 }
@@ -434,18 +442,12 @@
             margin-right: 30px;
         }
 
-
-        .modal_pop {
+        .createPost_modal_popup {
             width: 90%;
         }
-
-        .submitBtn {
-            font-size: 14px;
-        }
-        .signUp_modal_pop {
+        .signUp form {
             width: 70%;
         }
-        
     }
 /*............................. media screen max width 412px ..................*/
     @media screen and (max-width: 412px) {
@@ -502,22 +504,8 @@
             margin-left: 24px;
         }
 
-
-        .signUp_modal_pop {
-            width: 70%;
-        }
-        .signUp_modal_pop form input {
-            width: 90%;
-            padding: 10px 12px;
-        }
-        .submitBtn {
+        .signUp form .submitBtn {
             font-size: 15px;
-        }
-
-        
-        .signUp_modal_pop {
-            width: 70%;
-            margin-left: 2rem;
         }
 
     }

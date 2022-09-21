@@ -1,0 +1,51 @@
+.signUp {
+	margin-top: 6%;
+}
+.signUpHeading {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid lightgray;
+	margin-bottom: 15px;
+}
+.signUpHeadingLeft p{
+    margin-bottom: 10px;
+}
+.signUp form {
+	background-color: #fff;
+	width: 50%;
+	margin: 0px auto;
+	padding: 25px 46px;
+	border-radius: 10px;
+	border: 0;
+}
+
+.signUp form input {
+    width: 97%;
+    min-width: 100px;
+    padding: 15px 10px;
+    margin: 5px -3px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid lightgray;
+    margin-bottom: 12px;
+}
+.signUp form .submitBtn {
+    margin-top: 15px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding: 0 1px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+.signUpHeading .MuiIconButton-root {
+	margin-left: -8px;
+}

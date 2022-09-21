@@ -27,16 +27,16 @@ const MessageSender = () => {
     return (
         <>
         <Modal open={open}>
-                <div className='modal_pop' >
+                <div className='createPost_modal_popup' >
                     <form>
-                        <div className='modal_heading'>
+                        <div className='createPost_modal_heading'>
                             <h3>Create Post</h3>
                             <IconButton onClick={handleClose}>
                                 <CloseIcon/>
                             </IconButton>
                         </div>
                             <hr/>
-                        <div className='modal_header'>
+                        <div className='createPost_modal_header'>
                             <Avatar/>
                             <div>
                                 <h5>User Name</h5>
@@ -47,18 +47,18 @@ const MessageSender = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='modal_body'>
+                        <div className='createPost_modal_body'>
                             <textarea rows="5" placeholder="what's on your mind User ?"></textarea>
-                            <div className='modal_bodyIcon'>
+                            <div className='createPost_modal_bodyIcon'>
                                 <img style={{width:'30px'}} src={SATP} alt=""/>
                                 <img style={{width:'23px',height:'23px'}} src={HappyEmoji} alt=""/>
                             </div>
                         </div>
-                        <div className='modal_footer'>
-                            <div className='modal_footerLeft'>
+                        <div className='createPost_modal_footer'>
+                            <div className='createPost_modal_footerLeft'>
                                 <h4>Add to your post</h4>
                             </div>
-                            <div className='modal_footerRight'>
+                            <div className='createPost_modal_footerRight'>
                                <img src={Photo} alt=""/>
                                <img src={AvatarUser} alt=""/>
                                <img src={HappyEmojiColor} alt=""/>
@@ -67,7 +67,7 @@ const MessageSender = () => {
                                <MoreHorizIcon/>
                             </div>
                         </div>
-                        <input type="submit" className="modalPost_submit" value="Post"/>
+                        <input type="submit" className="createPost_modal_submit" value="Post"/>
                     </form>
                 </div>
         </Modal>

@@ -88,7 +88,12 @@
 .createRoomAvater{
     margin-right: 5px;
 }
-.modal_pop{
+
+
+
+
+
+.createPost_modal_popup{
     top: 50%;
     background-color: #fff;
     width: 50%;
@@ -99,24 +104,24 @@
     border-radius: 10px;
     border: 0;
 }
-.modal_heading{
+.createPost_modal_heading{
     text-align: center;
     height: 40px;
 }
-.modal_heading .MuiIconButton-root{
+.createPost_modal_heading .MuiIconButton-root{
     position: absolute;
     top: 5px;
     right: 8px;
 }
-.modal_header{
+.createPost_modal_header{
     display: flex;
     padding: 15px 0px;
     align-items: center;
 }
-.modal_header h5{
+.createPost_modal_header h5{
     margin-left: 8px;
 }
-.modal_body textarea{
+.createPost_modal_body textarea{
     width: 100%;
     min-width: 100px;
     font-size: 25px;
@@ -126,7 +131,7 @@
    letter-spacing: 1px;
    font-family: sans-serif;
 }
-.modal_footer{
+.createPost_modal_footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -136,7 +141,7 @@
     margin-top: 20px;
     padding: 10px 15px;
 }
-.modal_footerLeft h4{
+.createPost_modal_footerLeft h4{
     color:#1d1f20;
     font-weight: 500;
     font-family: sans-serif;
@@ -168,12 +173,12 @@
     margin-left: 5px;
     margin-right: 2px;
 }
-.modal_bodyIcon{
+.createPost_modal_bodyIcon{
     display: flex;
     justify-content: space-between;
     cursor: pointer;
 }
-.modalPost_submit{
+.createPost_modal_submit{
     width: 100%;
     background-color: #2391fa;
     text-align: center;

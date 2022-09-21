@@ -1,27 +1,20 @@
-import { IconButton, Modal } from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
 import React, { useState } from 'react';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import { Navigate } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import auth from '../../firebase.init';
 // import AddIcon from '@mui/icons-material/Add';
 import "../../css/login.css"
 
-const Login = () => {
-    // .....................User Login Function start...................................
-    const[open, setOpen] = useState(false)
-    const handleClose=()=>{
-        setOpen(false)
-    }
-    const handleOpen=()=>{
-        setOpen(true)
-    }
+const Login = (props) => {
+    // .....................User Login Function start..................................
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [
         signInWithEmailAndPassword,
         user,
+        loading,
+        error,
     ] = useSignInWithEmailAndPassword(auth);
     
 
@@ -36,7 +29,7 @@ const Login = () => {
     if (user) {
         Navigate('/home');
     }
-
+    
     const handleUserSignIn = event => {
         event.preventDefault();
         signInWithEmailAndPassword(email, password);
@@ -44,30 +37,6 @@ const Login = () => {
     // .....................User Login Function End...................................
     return (
         <>
-        {/*.............................. SignUp Modal Popup Start...........................................*/}
-        <Modal open={open}>
-                <div className='signUp_modal_pop' >
-                    <form>
-                        <div className='signUp_modal_heading'>
-                            <div className='signUp_modal_headingLeft'>
-                                <h2>Sign Up</h2>
-                                <p>It's quick and easy.</p>
-                            </div>
-                            <IconButton onClick={handleClose}>
-                                <CloseIcon/>
-                            </IconButton>
-                        </div>
-                        <div className='signUp_modal_body'>
-                                <input type="text" name="name" placeholder="Name" required />
-                                <input type="email" name="email" placeholder="Email address" required />
-                                <input type="password" name="" placeholder="Password" required />
-                                <input type="confirmPassword" name="" placeholder="Confirm Password" required />
-                                <button type="submit" className='submitBtn'> Sign Up</button>
-                        </div>
-                    </form>
-                </div>
-        </Modal>
-         {/*.............................. SignUp Modal Popup End...........................................*/}
 
         <div className='login'>
            <div className='loginBody'>
@@ -80,9 +49,16 @@ const Login = () => {
                     <form onSubmit={handleUserSignIn}>
                         <input type="text" name="email" onBlur={handleEmailBlur} placeholder='Email Address or phone number'/>
                         <input type="password" name="password" onBlur={handlePasswordBlur} placeholder='Password'/>
+
+                        
+                        <p style={{ color: 'red', marginBottom:'10px' }}>{error?.message}</p>
+                        {
+                        loading && <p style={{ color: 'blue', fontWeight:'bolder', marginBottom:'20px' }} >Loading...</p>
+                        }
+
                         <button type="submit" className='submitBtn'>Log In</button>
                         <h5>Forgotten password?</h5>
-                        <button type="submit" className='btn' onClick={handleOpen}>Create New Account</button>
+                        <Link to="/signup"><button type="submit" className='btn'>Create New Account</button></Link>
                     </form>
                     <p style={{ marginTop:'35px'}}><span style={{fontWeight:'bolder'}}>Create a Page</span> for a celebrity, brand or business.</p>
                 </div>
