@@ -102,3 +102,81 @@
 .header_middle .mobileMenu{
     display: none;
 }
+
+
+
+.profile_menu_popup {
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	width: 20%;
+	left: 0;
+	margin-left: auto;
+	padding: 10px 18px;
+	border-radius: 10px;
+	margin-top: 4%;
+}
+
+.profile_menu_popupTop {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 15px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.profile_menu_popup h4{
+    font-weight: 500;
+    cursor: pointer;
+}
+.profile_menu_popupTop_body{
+    display: flex;
+    align-items: center;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+.profile_menu_popupTop_body h2 {
+	text-transform: capitalize;
+	cursor: pointer;
+	font-size: 18px;
+}
+.profile_menu_popupTop h4 {
+	color: #2381fa;
+	margin-left: 12px;
+	margin-top: 12px;
+    cursor: pointer;
+}
+.profile_menu_popup .hr {
+	color: lightgrey;
+	width: 90%;
+	margin: auto;
+}
+.popupBottom_optionTop {
+	display: flex;
+    align-items: center;
+	margin-top: 15px;
+    justify-content: space-between;
+}
+.popupBottom_optionLeft{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.popupBottom_optionLeft .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+	background-color: lightgray;
+    margin-right: 10px;
+}
+.popupBottom_optionLeft svg{
+    color: black;
+}
+.popupBottom_option{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+.popupBottom_option .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+	background-color: lightgray;
+    margin-right: 10px;
+}
+.popupBottom_option svg{
+    color: black;
+
+} 
+

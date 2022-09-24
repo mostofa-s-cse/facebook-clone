@@ -94,7 +94,7 @@ const SignUp = () => {
                                 
                                 <input type="password" onChange={handlePasswordBlur} id="password" placeholder="Password" required />
                                 <p style={{color: 'red'}}>{error}</p>
-                                <input type="confirmPassword" onChange={handleConfirmPasswordBlur} id="password" placeholder="Confirm Password" required />
+                                <input type="password" onChange={handleConfirmPasswordBlur} id="confirmPassword" placeholder="Confirm Password" required />
                                 {
                                     user && <p style={{ color: '#4fb666', fontWeight:'bolder', fontSize:'20px', marginBottom:'20px',textAlign:'center' }} >Successfully Login</p>
                                 }
